@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <div class="h-screen">
+    <div class="">
       <video
         class="absolute -z-20"
         src="../assets/bg.mp4"
@@ -35,19 +35,19 @@
       ></video>
       <nav class="">
         <div
-          class="flex justify-between pt-10 md:px-12 lg:px-36 from-up4 slide-in"
+          class="flex justify-between pt-10  md:px-12 lg:px-36 from-up4 slide-in"
         >
           <div
-            class="flex md:gap-x-2 lg:gap-x-9 lg:mt-10 md:mt-6 text-white font-semibold lg:text-[14px] md:text-[9px]"
+            class="md:flex md:gap-x-2 lg:gap-x-9 lg:mt-10 md:mt-6 text-white font-semibold lg:text-[14px] md:text-[9px] hidden"
           >
-            <img class="w-7 h-7 -mt-1" src="../images/logo.png" alt="" />
+            <img class="w-7 h-7 lg:-mt-1 md:-mt-2" src="../images/logo.png" alt="" />
             <a class="" href="/">Homepage</a>
             <a href="/">Designs</a>
             <a href="/">Ideas</a>
             <a href="/dist/contact.html">Contact</a>
           </div>
           <div
-            class="flex text-center items-center justify-center text-white md:gap-x-4 lg:gap-x-10 md:text-[7px] lg:text-sm"
+            class="md:flex hidden text-center items-center justify-center text-white md:gap-x-4 lg:gap-x-10 md:text-[7px] lg:text-sm"
           >
             <div class="lg:w-14 md:w-8">
               <img class="mb-6" src="../images/i1.svg" alt="" />
@@ -75,38 +75,39 @@
           </div>          
         </div>
       </nav>
-      <div class="font-special font-extrabold text-8xl text-white ml-36 mt-32 from-down slide-in">
+      <div class="font-special font-extrabold lg:text-8xl md:text-5xl text-3xl text-white lg:ml-36 lg:mt-32 md:ml-12 md:mt-6 ml-8 mt-8 from-down slide-in">
         <p>You dreamed it.</p>
         <p>We build it</p>
       </div>
     </div>
-    <div class="flex flex-col items-center justify-center mt-10 text-white">
+    <div class="flex flex-col items-center justify-center lg:mt-56 mt-40 text-white">
       <h1 class="text-5xl mb-10 font-extrabold from-down4 fade-in font-special">
         Who Works With Us
       </h1>
-      <p class="w-[750px] text-center py-4 from-down4 slide-in">
+      <p class="md:w-[750px] w-[250px] text-center md:py-2 py-0 from-down4 slide-in">
         Keep maintaining all the services that we serve for our customers and companies.
       </p>
       <div>
-        <div class="flex gap-x-10 text-center py-10">
-          <img class="fade-in" src="../images/brands/envato.svg" alt="" />
+        <div class="flex  items-center  justify-center md:gap-x-10 gap-x-3 text-center py-10">
+          
+          <img class="fade-in w-16" src="../images/brands/envato.svg" alt="" />
           <img
-            class="fade-in1"
+            class="fade-in1 w-16"
             src="../images/brands/volkswagen.svg"
             alt=""
-          /><img class="fade-in2" src="../images/brands/shopify.svg" alt="" />
-          <img class="fade-in3" src="../images/brands/playstation.svg" alt="" />
-          <img class="fade-in4" src="../images/brands/mitsubishi.svg" alt="" />
+          /><img class="fade-in2 w-16" src="../images/brands/shopify.svg" alt="" />
+          <img class="fade-in3 w-16" src="../images/brands/playstation.svg" alt="" />
+          <img class="fade-in4 w-16" src="../images/brands/mitsubishi.svg" alt="" />
         </div>
-        <div class="flex gap-x-10 text-center mb-10">
-          <img class="fade-in4" src="../images/brands/sound_cloud.svg" alt="" />
-          <img class="fade-in3" src="../images/brands/figma.svg" alt="" /><img
-            class="fade-in2"
+        <div class="flex items-center justify-center gap-x-3 md:gap-x-10 text-center mb-10">
+          <img class="fade-in4  w-16 " src="../images/brands/sound_cloud.svg" alt="" />
+          <img class="fade-in3 w-16" src="../images/brands/figma.svg" alt="" /><img
+            class="fade-in2 w-16"
             src="../images/brands/dribbble.svg"
             alt=""
           />
-          <img class="fade-in1" src="../images/brands/chrome.svg" alt="" />
-          <img class="fade-in" src="../images/brands/flickr.svg" alt="" />
+          <img class="fade-in1  w-16" src="../images/brands/chrome.svg" alt="" />
+          <img class="fade-in  w-16" src="../images/brands/flickr.svg" alt="" />
         </div>
       </div>
     </div>
@@ -115,35 +116,37 @@
 
     <!--BG Part-->
     <div class="relative mt-52">
-      <img class="h-screen" src="../images/bg-white.png" alt="" />
+      <img class="h-screen " src="../images/bg-white.png" alt="" />
       <img
-        class="absolute w-[550px] right-56 top-24 from-left slide-in"
+        class="absolute lg:w-[550px] md:w-[350px] w-[200px] top-[550px] lg:right-36 lg:top-24 md:top-[650px] md:right-72 from-left slide-in"
         src="../images/peugeot.png"
         alt=""
       />
       <img
-        class="absolute w-[550px] right-28 bottom-12 from-right slide-in"
+        class="absolute lg:w-[550px] md:w-[350px] w-[200px] top-[640px]  lg:right-14 lg:top-72 md:bottom-28 md:right-12 from-right slide-in"
         src="../images/range.png"
         alt=""
       />
-      <p
-        class="absolute top-60 left-28 border px-4 py-3 text-gray-400 rounded-lg text-xs from-down slide-in"
-      >
-        FEATURE
-      </p>
-      <p class="absolute top-72 left-28 font-bold  text-4xl from-down1 slide-in">
-        We can design anything you want
-      </p>
-      <p class="absolute top-[370px] left-28 from-down2 slide-in w-1/3">
-        With any type of devices you can feel the our fully responsive
-        designs. Without encountring with any issue. For new features and
-        ideas keep in touch with us!
-      </p>
-      <button
-        class="absolute md:bottom-36 lg:bottom-48 left-28 rounded-md font-normal px-5 py-2 bg-black text-white from-down2 slide-in"
-      >
-        Contact
-      </button>
+      <div class="sm:flex items-center justify-center">
+        <p
+          class="absolute  lg:top-48 lg:left-28 md:top-44 md:left-28 top-40 left-28 border px-4 py-3 text-gray-400 rounded-lg text-xs from-down slide-in"
+        >
+          FEATURE
+        </p>
+        <p class="absolute top-60 md:left-28 left-12 font-bold text-4xl from-down1 slide-in md:text-start text-center">
+          We can design anything you want
+        </p>
+        <p class="absolute top-[300px] lg:left-28 from-down2 slide-in md:2/3 lg:w-1/3 w-full md:text-start px-2">
+          With any type of devices you can feel the our fully responsive
+          designs. Without encountring with any issue. For new features and
+          ideas keep in touch with us!
+        </p>
+        <button
+          class="absolute lg:top-[460px] md:top-[480px] md:left-28 left-28 top-[380px] rounded-md font-normal px-5 py-2 bg-black text-white from-down2 slide-in"
+        >
+          Contact
+        </button>
+      </div>
     </div>
     
     <!--Languages-->
@@ -152,24 +155,24 @@
     </p>
     <div class="lang-container mt-10 mb-10">
       <div class="marquee">
-        <ul class="marquee-content">
-          <li><i class="fab fa-github"></i></li>
-          <li><i class="fab fa-codepen"></i></li>
-          <li><i class="fab fa-free-code-camp"></i></li>
-          <li><i class="fab fa-dev"></i></li>
-          <li><i class="fab fa-react"></i></li>
-          <li><i class="fab fa-vuejs"></i></li>
-          <li><i class="fab fa-angular"></i></li>
-          <li><i class="fab fa-node"></i></li>
-          <li><i class="fab fa-wordpress"></i></li>
-          <li><i class="fab fa-aws"></i></li>
-          <li><i class="fab fa-docker"></i></li>
-          <li><i class="fab fa-android"></i></li>
+        <ul class="marquee-content ">
+          <li><i class="fab fa-github fa-2xs"></i></li>
+          <li><i class="fab fa-codepen fa-2xs"></i></li>
+          <li><i class="fab fa-free-code-camp fa-2xs"></i></li>
+          <li><i class="fab fa-dev fa-2xs"></i></li>
+          <li><i class="fab fa-react fa-2xs"></i></li>
+          <li><i class="fab fa-vuejs fa-2xs"></i></li>
+          <li><i class="fab fa-angular fa-2xs"></i></li>
+          <li><i class="fab fa-node fa-2xs"></i></li>
+          <li><i class="fab fa-wordpress fa-2xs"></i></li>
+          <li><i class="fab fa-aws fa-2xs"></i></li>
+          <li><i class="fab fa-docker fa-2xs"></i></li>
+          <li><i class="fab fa-android fa-2xs"></i></li>
         </ul>
       </div>
     </div>
     <!--Contact-->
-    <div class="grid grid-cols-2 justify-center items-center">
+    <div class="grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
       <form class="form mycontact">
         <h2 class="myh2">CONTACT US</h2>
         <p class="myp" type="Name:"><input placeholder="Write your name here.."></input></p>
@@ -181,38 +184,37 @@
           <span class="fa fa-envelope"></span> melbuapp@gmail.com
         </div>
       </form>
-      <div>
-        <p class="font-extralight text-white text-xl w-96 text-center mb-6">Be our one of the customers all around the WORLD!</p>
-        <img class="w-1/2 " src="../images/world.png" alt="">
+      <div class="lg:grid  hidden">
+        <img class="md:px-20" src="../images/world.png" alt="">
       </div>
     </div>
     <!--Screens-->
     <div class=" relative">
-      <img class="-z-20" src="../images/try-bg.png" alt="" />
+      <img class="w-full h-screen" src="../images/try-bg.png" alt="" />
       <div class="">
         <div class="">
           <img
-            class="absolute top-36 left-4 w-1/2 from-left slide-in"
+            class="absolute lg:top-36 lg:left-4 md:bottom-16 md:left-36 bottom-14    lg:w-1/2 md:w-[500px] sm:w-[150px] from-left slide-in"
             src="../images/laptop.png"
             alt=""
           />
 
           <img
-            class="absolute top-56 left-96 w-72 from-left1 slide-in"
+            class="absolute lg:top-56 lg:left-96 md:bottom-20 md:left-96 bottom-16 left-60 lg:w-72 md:w-52 w-48 from-left1 slide-in"
             src="../images/phone.png"
             alt=""
           />
         </div>
-        <div class="absolute top-36 right-60">
-          <img class="w-16 mb-16" src="../images/logo.png" alt="" />
-          <p class="text-white text-4xl font-bold font-special mb-12">Responsive Design</p>
-          <p class="text-white w-[460px] font-light font-pop mb-12">
+        <div class="absolute lg:top-36 lg:right-32 md:top-32 md:right-24 top-32 right-0 text-center ">
+          <img class="w-16 mb-16 lg:ml-52 sm:ml-0 " src="../images/logo.png" alt="" />
+          <p class="text-white lg:text-4xl md:text-6xl text-5xl font-bold font-special mb-12">Responsive Design</p>
+          <p class="text-white md:w-[460px] w-full  font-light font-pop mb-6 sm:mb-12">
             With any type of devices you can feel the our fully responsive
             designs. Without encountring with any issue. For new features and
             ideas keep in touch with us
           </p>
           <button
-            class="bg-black py-2 px-4 text-white font-semibold rounded-lg"
+            class="bg-black lg:py-2 lg:px-4 md:py-4 md:px-6 lg:text-lg md:text-xl text-white font-semibold rounded-lg"
           >
             Contact Us
           </button>
@@ -345,7 +347,7 @@
           </div>
           <hr class="border-gray-600" />
           <p class="w-full text-center my-12 text-gray-600">
-            Copyright © 2023 WeBees Tech - Melbu Design
+            Copyright © 2023 WeBees Tech - Melbu Design (Our site is currently under maintenance)
           </p>
         </div>
       </div>

@@ -175,7 +175,7 @@ body {
 }
 
 :root {
-  --marquee-width: 80vw;
+  --marquee-width: 90vw;
   --marquee-height: 20vh;
   /* --marquee-elements: 12; */ /* defined with JavaScript */
   --marquee-elements-displayed: 5;
@@ -338,4 +338,10 @@ input:focus {
 }
 span {
   margin: 0 5px 0 15px;
+}
+
+.center-abs {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%-50%);
 }
